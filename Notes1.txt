@@ -38,12 +38,31 @@ Use the CSS margin property for space outside the border
                                     HTML Links - The target Attribute
 By default, the linked page will be displayed in the current browser window. 
 To change this, you must specify another target for the link.
-
 The target attribute specifies where to open the linked document.
-
 The target attribute can have one of the following values:
-
 _self - Default. Opens the document in the same window/tab as it was clicked
 _blank - Opens the document in a new window or tab
 _parent - Opens the document in the parent frame
 _top - Opens the document in the full body of the window
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+
+
+Use the HTML <map> element to define an image map
+Use the HTML <area> element to define the clickable areas in the image map
+Use the HTML usemap attribute of the <img> element to point to an image map
+
+
+                                    HTML Table Tags
+Tag	Description
+<table>	Defines a table
+<th>	Defines a header cell in a table
+<tr>	Defines a row in a table
+<td>	Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>	Specifies column properties for each column within a <colgroup> element
+<thead>	Groups the header content in a table
+<tbody>	Groups the body content in a table
+<tfoot>	Groups the footer content in a table
