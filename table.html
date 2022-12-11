@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table {
+            border-spacing: 5px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 2px;
+            
+        }
+        th, td {
+            background-color: bisque;
+            border-radius: 1px solid black;
+            border-style: line;
+            border-color: blue;
+            padding: 15px;
+            padding-left: 10%;
+            border-bottom: 3px solid rgb(32, 232, 99);
+        }
+        tr:hover{background-color: white;}
+        th {
+            text-align: left;
+        }
+        tr:hover {background-color: #D6EEEE;}
+        tr:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+        th:nth-child(even),td:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+    </style>
+    <head>
+        <title>
+            "All Properties of Table"
+        </title>
+    </head>
+    <body style="background-color: rgb(137, 117, 117);">
+        <table style="width: 100% ;">
+            <caption><h1>Access Marix</h1></caption>
+            <tr>
+                <th colspan="1">User/Files</th>
+                <th>File1</th>
+                <th>File2</th>
+                <th>File3</th>
+            </tr>
+            <tr>
+                <th>User 1</th>
+                <td>R</td>
+                <td>W</td>
+                <td>W</td>
+            </tr>
+            <tr>
+                <th>User 2</th>
+                <td>R</td>
+                <td>W</td>
+                <td>W</td>
+            </tr>
+            <tr>
+                <th rowspan="2">User 3</th>
+                <td>R</td>
+                <td>W</td>
+                <td>W</td>
+            </tr>
+            <tr>
+                <td>R</td>
+                <td>W</td>
+                <td>W</td>
+            </tr>
+        </table>
+
+        
+        <h2>Striped Table</h2>
+        <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+        <table style="width: 100%;">
+            <colgroup>
+              <col span="2" style="background-color: #D6EEEE">
+              <col span="3" style="background-color: rgb(169, 46, 67)">
+            </colgroup>
+        }
+            <tr>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+                <th>SAT</th>
+                <th>SUN</th>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        }
+        </table>
+
+
+
+
+
+
+    </body>
+</html>
